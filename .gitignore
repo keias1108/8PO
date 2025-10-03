@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Project-specific: do not publish ---
+# Agent instruction files (any depth)
+AGENTS.md
+**/AGENTS.md
+
+# Simulation rule docs (private/internal)
+pixel_organism_rules.md
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Caches and reports
+.eslintcache
+.parcel-cache
+.turbo
+.vite
+coverage/
+.cache/
+
+# Platform deploy metadata
+.vercel
+.netlify
+
+# OS-specific
+Thumbs.db
